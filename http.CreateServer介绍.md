@@ -2,7 +2,7 @@
 
 ## nodejs需求
 由于使用到了__await/async__,nodejs的版本需要大于`7.6.0`。
-可以使用指令`node -v`来查看nodejs的版本。如果你使用的nodejs版本过低,可以使用`[nvm]()`来安装符合要求的nodejs。
+可以使用指令`node -v`来查看nodejs的版本。如果你使用的nodejs版本过低,可以使用`[nvm](https://github.com/creationix/nvm)`来安装符合要求的nodejs。
 
 ### http.createServer介绍
 `http`是nodejs中自带的一个库,其api可以参考[这里]()。我们使用`http.createServer`来生成一个服务,并在*3000*端口上进行监听,代码如下:
